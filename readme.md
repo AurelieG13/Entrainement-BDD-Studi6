@@ -1,4 +1,5 @@
-# Sauvegarder / Restaurer la base de données MySQL
+# Aide à l'implémentation de la base de données
+## Sauvegarder / Restaurer la base de données MySQL
 ## Sauvegarder la base de données
 
 1. Dans une invite de commande
@@ -186,8 +187,8 @@ CREATE TABLE session_price (
 ```
 
 **Ajouter les données factices dans les tables**
-utiliser la section insert datas du fichier requetes.sql afin d'importer des données factices dans les tables.
 
+Utiliser la section <mark>insert datas</mark> du fichier requetes.sql afin d'importer des données factices dans les tables.
 
 
 
