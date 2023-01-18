@@ -323,3 +323,13 @@ insert into sessions (date_session, ticket_sold, ticket_for_sale, id_theater, id
 insert into sessions (date_session, ticket_sold, ticket_for_sale, id_theater, id_movie, id_price, id_user, id_room, id_mode) values ('2023-07-27 13:12:51', 15, 252, 2, 27, 2, 3, 16, 2);
 
 -- end insert datas
+
+--create users & privileges
+
+CREATE USER 'admin_cinema1'@'localhost' IDENTIFIED BY 'cinema1';
+GRANT SELECT ON cinema.* 
+TO 'admin_cinema1'@'localhost'
+IDENTIFIED BY 'cinema1';
+FLUSH PRIVILEGES;
+
+--end create users & privileges
